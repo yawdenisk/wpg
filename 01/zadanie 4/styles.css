@@ -1,0 +1,19 @@
+ul li{
+    list-style-type: none;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.ul li{
+    list-style-type: disc;
+}
+h4{
+    font-weight: 300;
+}

@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 300px;
+}
+nav .nav-bar a{
+    padding: 100px;
+    text-decoration: none;
+    color: black;
+}
+nav .nav-bar a:last-child{
+    padding: 0;
+}
+main .info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+.container{
+    margin: 20px 300px;
+}
+.block2{
+    text-align: center;
+    border-left: 1px solid black;
+    padding: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5">Tabela przykladowa</td>
+        </tr>
+        <colgroup>
+        <col span="3" style="background-color: yellow;">
+        <col span="2" style="background-color: rgb(128, 196, 252);">
+    </colgroup>
+        <tr>
+            <td colspan="2" rowspan="2">Grupa A</td>
+            <td colspan="2">Mecz 1</td>
+            <td colspan="2">Mecz 2</td>
+        </tr>
+        <tr>
+            <td>Druzyna 1</td>
+            <td>Druzyna 2</td>
+            <td>Druzyna 3</td>
+            <td>Druzyna 4</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">Ukraina</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">Polska</td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <table>
+                    <tr>
+                        <td class="a" colspan="6">Przykladowa zagniezdziona tabela</td>
+                    </tr>
+                    <tr style="font-weight: bold;">
+                        <td>Imie</td>
+                        <td>Nazwisko</td>
+                        <td>Wiek</td>
+                    </tr>
+                    <tr>
+                        <td>Jan</td>
+                        <td>Kowalski</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Anna</td>
+                        <td>Nowak</td>
+                        <td>30</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Razem</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+    </table>
+</body>
+</html>

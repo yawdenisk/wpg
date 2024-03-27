@@ -1,0 +1,11 @@
+img{
+    width: 100px;
+    height: 100pxx;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
