@@ -1,0 +1,27 @@
+.container{
+    width: 220px;
+    background-color: black;
+    height: 530px;
+    color: white;
+    font-size: 25px;
+}
+p{
+    padding: 10px;
+}
+.box1{
+    width: 180px;
+    height: 200px;
+    background-color: red;
+    color: black;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.box2{
+    width: 180px;
+    height: 200px;
+    background-color: blue;
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 20px;
+}

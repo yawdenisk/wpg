@@ -1,0 +1,15 @@
+.tekst{
+    background-color: rgb(242, 242, 242)  ;
+    width: 330px;
+}
+p{
+    font-size: 25px;
+    margin: 10px;
+}
+.tekst p:nth-child(3){
+    color: red;
+    font-size: 17px;
+}
+.tekst p:nth-child(4){
+    color: red;
+}
