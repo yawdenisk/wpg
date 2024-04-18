@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.equal-width{
+    text-align: center;
+    padding: 20px 0;
+    width: 32%;
+    background-color: lightblue;
+}
+.row2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.fixed-percentage{
+    background-color: lightblue;
+    text-align: center;
+    width: 40%;
+    padding: 20px 0;
+}
+.flexible{
+    width: 58%;
+    text-align: center  ;
+    padding: 20px 0;
+    background-color: lightblue;
+}
